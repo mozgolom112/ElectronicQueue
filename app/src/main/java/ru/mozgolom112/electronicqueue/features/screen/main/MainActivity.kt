@@ -6,8 +6,8 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
 import androidx.compose.ui.Modifier
+import ru.mozgolom112.electronicqueue.features.screen.authorization.AuthorizationScreen
 import ru.mozgolom112.electronicqueue.ui.theme.ElectronicQueueTheme
 
 class MainActivity : ComponentActivity() {
@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     //screen here
-                    Text("Hello")
+                    AuthorizationScreen()
                 }
             }
         }
